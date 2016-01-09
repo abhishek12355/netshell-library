@@ -10,6 +10,7 @@
     <modules>
         <module>Singleton</module>
         <module>EventManager</module>
+        <module>Factory</module>
     </modules>
     <dependencyManagement>
         <dependencies>
