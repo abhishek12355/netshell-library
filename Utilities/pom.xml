@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>Factory</artifactId>
+    <artifactId>Utilities</artifactId>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,10 +32,14 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.netshell.library</groupId>
+            <artifactId>Singleton</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>factory</finalName>
+        <finalName>utilities</finalName>
     </build>
 
 </project>
